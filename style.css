@@ -85,7 +85,7 @@ footer {
 }
 
 .matrix {
-  right: 5%;
+  margin-right: 5%;
   top: 3.49%;
   max-width: 100%;
   max-height: 90%;
@@ -127,17 +127,23 @@ footer {
   .cont2def{
     display: flex;
     flex-direction: column;
+    margin-right: 5%;
   }
   .definition{
     text-align: right;
+    width: 800px;
   }
   .definition2{
     text-align: right;
+  }
+  #worldNetwork{
+    margin-left: 5%;
   }
 
   .cont1jobInternet{
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
   }
 
   .cont2jobInternet{
@@ -149,17 +155,40 @@ footer {
   .cont3jobInternet{
     display: flex;
     flex-direction: column;
+    margin-left: 5%;
+  }
+
+  #jobAlign{
+    width: 800px;
+  }
+
+  #code1{
+    width: 25%;
+    margin-right: 5%;
   }
   .cont4jobInternet{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .cont5jobInternet{
     display: flex;
     flex-direction: column;
+    margin-right: 5%;
+  }
+  #jobComAlign{
+    text-align: right;
+    width: 800px;
+    font-size: 25px;
   }
 
-
+  #comman{
+    width: 35%;
+    margin-left: 5%;
+  }
 /*******        Header       *******/
 
   .topnav {
