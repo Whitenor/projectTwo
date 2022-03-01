@@ -25,12 +25,9 @@ footer {
   width: 100%;
   left: 0px;
 }
-#navFooter{
-  height: 100px;
-}
 .testing{
  margin: 20px;
- padding: 20px;
+
 }
 .copyright{
   padding: 20px;
@@ -203,6 +200,15 @@ footer {
     margin-top: 3.49%;
     width: 10%;
     height: 10%;
+  }
+  #navFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerPort{
+    display: flex;
+    flex-direction: column;
   }
 
   #titlepagesite {
