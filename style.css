@@ -15,6 +15,9 @@ footer {
   z-index: 1;
 }
 
+#comman{
+  width: 35%;
+}
 
 @media screen and (min-width: 1000px) {
   .matrix {
@@ -123,6 +126,7 @@ footer {
   .icon {
     display: none;
   }
+
 }
 
 
@@ -143,10 +147,6 @@ footer {
     left: 5%;
     top: 30%;
     display: none;
-  }
-
-  #comman{
-    width: 100vw;
   }
 
   .matrix {
