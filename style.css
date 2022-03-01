@@ -1,34 +1,43 @@
 html {
   background: linear-gradient(180deg, #F1F1F1 0%, #ffefbe 100%);
+  display: flex;
+  flex-direction: column;
 }
 
 body {
   overflow-x: hidden;
 }
+.noUnderline {
+  text-decoration: none;
+}
 
+/*Footer*/
 footer {
   background-color: #605a48;
   color: white;
-  width: 100%;
   position: absolute;
-  right: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
   z-index: 1;
+  width: 100%;
+  left: 0px;
+}
+#navFooter{
+  height: 100px;
+}
+.testing{
+ margin: 20px;
+ padding: 20px;
+}
+.copyright{
+  padding: 20px;
 }
 
-#comman{
-  width: 35%;
-}
 
 @media screen and (min-width: 1000px) {
-  .matrix {
-    right: 5%;
-    top: 3.49%;
-    max-width: 100%;
-    max-height: 90%;
-    position: absolute;
-    z-index: 2;
-    /*display: none;*/
-  }
 
   #onoff {
     position: relative;
@@ -37,59 +46,112 @@ footer {
     width: 150px;
     height: 150px;
   }
+/*Index page*/
 
-  #titlepagesite {
-    position: relative;
-    width: 305px;
-    height: 84px;
-    left: 5%;
-    top: 30%;
-    opacity: 0;
-  }
+.cont1Desc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-  #descsite {
-    position: relative;
-    width: 600px;
-    margin-left: 5%;
-    margin-top: 5%;
-    font-size: 20px;
-  }
+.cont2Desc{
+  display: flex;
+  flex-direction: column;
+}
+#titlepagesite {
+  position: relative;
+  width: 305px;
+  height: 84px;
+  left: 5%;
+  top: 30%;
+  opacity: 0;
+}
 
-  #navFooter {
+#descsite {
+  position: relative;
+  width: 600px;
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+.matrix {
+  right: 5%;
+  top: 3.49%;
+  max-width: 100%;
+  max-height: 90%;
+  /*position: absolute;*/
+  z-index: 2;
+}
+
+.callToAction {
+  display: flex;
+  position: relative;
+  left: 15%;
+  flex-direction: row;
+}
+
+.callToActionButton {
+  position: relative;
+  text-align: center;
+  width: 100px;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 14px 16px 15px 15px;
+  font-size: 20px;
+  color: white;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.callToAction a {
+  background-color: #605a48;
+}
+
+  /*Definition Container for all pages*/
+  .cont1def{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
-
-  .testing {
-    margin: 20px;
-  }
-
-  .noUnderline {
-    text-decoration: none;
-  }
-
-  .callToAction {
+  .cont2def{
     display: flex;
-    position: relative;
-    left: 15%;
+    flex-direction: column;
+  }
+  .definition{
+    text-align: right;
+  }
+  .definition2{
+    text-align: right;
+  }
+
+  .cont1jobInternet{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cont2jobInternet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cont3jobInternet{
+    display: flex;
+    flex-direction: column;
+  }
+  .cont4jobInternet{
+    display: flex;
     flex-direction: row;
   }
-
-  .callToAction a {
-    background-color: #605a48;
+  .cont5jobInternet{
+    display: flex;
+    flex-direction: column;
   }
 
-  .callToActionButton {
-    position: relative;
-    text-align: center;
-    width: 100px;
-    border: 1px solid black;
-    margin: 20px;
-    padding: 14px 16px 15px 15px;
-    font-size: 20px;
-    color: white;
-    border-radius: 50px;
-    font-weight: bold;
-  }
+
+
 
   .topnav {
     overflow: hidden;
@@ -132,6 +194,9 @@ footer {
 
 
 @media screen and (max-width: 999px) {
+  html{
+    width: 100vw;
+  }
   #onoff {
     position: relative;
     margin-left: 5%;
@@ -147,6 +212,13 @@ footer {
     left: 5%;
     top: 30%;
     display: none;
+  }
+
+  #comman{
+    width: 100vw;
+  }
+  #code1{
+    width: 100vw;
   }
 
   .matrix {
