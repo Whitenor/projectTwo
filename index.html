@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Intégration Web de la Présentation du 15/02/2022 concernant Internet , le Big Data et les jeux vidéos par Bernard, Jérémy, Benjamin et Antoine">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Présentation Internet, Big Data et Jeux vidéo</title>
+</head>
+<body>
+    <header>
+
+        <div class="topnav">
+            <a href="index.html" class="active">Première Tentative d'intégration Web</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+              <a href="internet.html">Internet</a>
+              <a href="bigdata.html">Big Data</a>
+              <a href="jevi.html">Jeux Vidéos</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <img src="image/Vectoron.png" alt="Logo" id="onoff">
+    </header>
+        <img src="image/matrixmodif.png" class="matrix">
+        <h1 id="titlepagesite"> Première Tentative d'intégration Web</h1>
+        <div id="descsite"><p>Ce site web a pour but d’intégrer la présentation faite le 15 Fébrier 2022 par Bernard, Jérémy, Benjamin et Antoine à propos de 3 sujets: 
+            <ul>
+                <li>Internet</li>
+                <li>Big Data</li>
+                <li>Jeux Vidéos</li>
+            </ul>
+            
+        Ainsi que les métiers pouvant être lié à ces différentes thématiques.</p></div>
+
+        <div class="callToAction">
+            <a href="" class="noUnderline callToActionButton">Découvrir</a>
+        </div>
+        <br/>
+        <br/>
+
+    <footer>
+        <nav id="navFooter">
+            <a href="index.html" class="noUnderline testing">Home</a>
+            <a href="internet.html" class="testing noUnderline">Internet</a>
+            <a href="bigdata.html" class="testing noUnderline">Big Data</a>
+            <a href="jevi.html"class="testing noUnderline">Jeux Vidéos</a>
+        </nav>
+
+        &copy; Copyright <a href="https://www.linkedin.com/in/antoine-piron/" class="noUnderline">Antoine Piron</a> , pour toute demande contact: <a href="mailto:a.piron@codeur.online">a.piron@codeur.online</a>
+        <br>
+    </footer>
+    <script type="text/javascript">
+        if (window.matchMedia("(max-width: 999px").matches){
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } 
+                else {
+                    x.style.display = "block";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
+
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Intégration Web de la Présentation du 15/02/2022 concernant Internet , le Big Data et les jeux vidéos par Bernard, Jérémy, Benjamin et Antoine">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Présentation Internet, Big Data et Jeux vidéo</title>
+</head>
+<body>
+    <header>
+
+        <div class="topnav">
+            <a href="index.html" class="active">Première Tentative d'intégration Web</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+              <a href="internet.html">Internet</a>
+              <a href="bigdata.html">Big Data</a>
+              <a href="jevi.html">Jeux Vidéos</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <img src="image/Vectoron.png" alt="Logo" id="onoff">
+    </header>
+        <h2 class="whatsBigData">Qu'est ce que la Big Data</h2>
+        <p class="whatsBigData">
+            Le Big Data est composé de jeux de données complexes qui proviennent essentiellement de nouvelles sources. Ces ensembles de données sont si volumineux qu’un logiciel de traitement de données traditionnel ne peut tout simplement pas gérer. 
+        </p>
+        <h2 class="bigDataJob">Quelques Exemples de métiers</h2>
+        <p>
+            Cette liste ne regroupent que quelques métiers parmi tant d'autres et n'as pour but que d'expliquer très grossièrement leurs travails. 
+            <br/>
+            <br/>
+            <ul class="bigDataJob">
+                <li>Architecte Big Data</li>
+                <br/>
+                L’architecte big data est chargé de la collecte de la donnée brute qui peut-être plus ou moins structurée, en plus ou moins grande quantité et qui peut provenir de sources différentes (internes, externes). Après cet inventaire, il crée et optimise les infrastructures de stockage, de manipulation et de restitution des données brutes.
+                <br/>
+                <br/>
+                <li>Data Scientist / Data Analyst</li>
+                <br>
+                Le data analyst et le data scientist sont responsables du croisement des données de l'entreprise avec celles mises à disposition via les services web et autres canaux digitaux (téléphone mobile..). Leur objectif : donner du sens à ces données et en extraire de la valeur pour aider l'entreprise à prendre des décisions stratégiques ou opérationnelles. 
+                <br><br>
+                <li>Data Engineer</li>
+                <br>
+                Le/la data engineer est un développeur informatique qui a pour mission de mettre en place la collecte et la mise à disposition des données au sein de l’entreprise. Il/elle est également en charge d’industrialiser et mettre en production des traitements sur les données (par exemple : mise à disposition de tableaux de bord, intégration de modèles statistiques) en lien avec les équipes métiers et les équipes qui les analysent. 
+                <br><br>
+                <li>Développeur Big Data</li>
+                <br>
+                Il assure la cohérence du système, la gestion des pannes et garantit la continuité du service. 
+                <br><br>
+            </ul>
+        </p>
+    <footer>
+        <nav id="navFooter">
+            <a href="index.html" class="noUnderline testing">Home</a>
+            <a href="internet.html" class="testing noUnderline">Internet</a>
+            <a href="bigdata.html" class="testing noUnderline">Big Data</a>
+            <a href="jevi.html"class="testing noUnderline">Jeux Vidéos</a>
+        </nav>
+
+        &copy; Copyright <a href="https://www.linkedin.com/in/antoine-piron/" class="noUnderline">Antoine Piron</a> , pour toute demande contact: <a href="mailto:a.piron@codeur.online">a.piron@codeur.online</a>
+        <br>
+    </footer>
+    <script type="text/javascript">
+        if (window.matchMedia("(max-width: 999px").matches){
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } 
+                else {
+                    x.style.display = "block";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
+
+
