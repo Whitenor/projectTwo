@@ -153,6 +153,8 @@ footer {
   .cont4jobInternet{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
   .cont5jobInternet{
     display: flex;
