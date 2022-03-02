@@ -71,12 +71,12 @@
   .cont2defInternet {
     display: flex;
     flex-direction: column;
-    margin-right: 5%;
+
   }
 
   .definition {
     text-align: right;
-    width: 800px;
+    width: 600px;
   }
 
   .definition2 {
@@ -139,4 +139,31 @@
   #comman {
     width: 35%;
     margin-left: 5%;
+  }
+
+  .definitionReverse {
+    text-align: left;
+    width: 600px;
+  }
+
+  .definitionReverse2 {
+    text-align: left;
+  }
+
+  .cont1DefBigData{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 100px;
+  }
+
+  .cont2DefBigData{
+      display: flex;
+      flex-direction: column;
+      margin-left: 5%;
+  }
+
+  #baieStock{
+      margin-right: 5%;
   }

@@ -1,0 +1,27 @@
+footer {
+    background-color: #605a48;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    width: 100%;
+    left: 0px;
+}
+
+#navFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.testing {
+    margin: 20px;
+}
+.copyright {
+    padding: 20px;
+}
+  
