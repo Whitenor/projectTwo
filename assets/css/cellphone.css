@@ -1,0 +1,65 @@
+.cont2Desc {
+    margin-top: 10%;
+    z-index: 1;
+  }
+
+  #onoff {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 50px;
+    height: 50px;
+  }
+
+  #navFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerPort {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #titlepagesite {
+    width: 305px;
+    height: 84px;
+    left: 5%;
+    top: 30%;
+    display: none;
+  }
+
+  #comman {
+    width: 100vw;
+  }
+
+  #code1 {
+    width: 100vw;
+  }
+
+  .matrix {
+    display: none;
+  }
+
+
+.callToAction {
+  display: flex;
+  left: 15%;
+  flex-direction: row;
+}
+
+.callToActionButton {
+  text-align: center;
+  width: 100px;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 14px 16px 15px 15px;
+  font-size: 20px;
+  color: white;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.callToAction a {
+  background-color: #605a48;
+}
