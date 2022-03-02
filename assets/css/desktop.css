@@ -167,3 +167,27 @@
   #baieStock{
       margin-right: 5%;
   }
+
+  .cont1JobBG{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .cont2JobBG{
+      display: flex;
+      flex-direction: column;
+  }
+  .bigDataJobList{
+      width: 600px;
+      text-align: right;
+      margin-right: 5%;
+  }
+  .bigDataJobTitle{
+      text-align: right;
+      margin-right: 5%;
+  }
+
+#spaghetti{
+    margin-left: 5%;
+}
