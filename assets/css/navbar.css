@@ -52,8 +52,8 @@
     overflow: hidden;
     width: 100%;
     height: 0px;
-    background: rgb(228, 196, 19);
-    color: black;
+    background: #696145;
+    color: white;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -71,7 +71,7 @@
 
 #mobileNavArea>ul>li>a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 700;
 }
 header {
