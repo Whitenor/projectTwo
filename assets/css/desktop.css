@@ -61,14 +61,14 @@
   }
 
   /*Definition Container for all pages*/
-  .cont1def {
+  .cont1defInternet {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
 
-  .cont2def {
+  .cont2defInternet {
     display: flex;
     flex-direction: column;
     margin-right: 5%;
