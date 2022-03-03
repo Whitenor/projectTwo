@@ -60,11 +60,17 @@
 }
 
 
-.bolding{
+.boldingTitle{
   font-weight: 600;
   color: black;
   text-decoration: underline;
   font-size: 25px;
+}
+.bolding{
+  color: black;
+  text-decoration: underline;
+  font-size: 25px;
+  font-weight: 400;
 }
 .sizeh2{
   font-size: 30px;
