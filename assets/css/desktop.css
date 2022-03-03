@@ -226,3 +226,40 @@
 #spaghetti {
   margin-left: 5%;
 }
+
+
+
+
+
+
+
+/*     Visual Enhancement Content JeVi       */
+
+
+
+
+
+
+
+.cont1DefJeVi{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.cont2DefJeVi{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+#gameController{
+  width: 35%;
+  margin-right: 5%;
+}
+
+#DefJeVi{
+  width: 60%;
+}
