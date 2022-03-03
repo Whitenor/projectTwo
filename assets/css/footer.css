@@ -20,8 +20,15 @@ footer {
 
 .testing {
     margin: 20px;
+    color: white;
 }
 .copyright {
     padding: 20px;
+}
+.noUnderline{
+    text-decoration: none;
+}
+.whiteColor{
+    color: white;
 }
   
