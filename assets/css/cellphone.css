@@ -1,50 +1,58 @@
 .cont2Desc {
-    margin-top: 10%;
-    z-index: 1;
-  }
+  margin-top: 10%;
+  z-index: 1;
+}
 
-  #onoff {
-    margin-left: 5%;
-    margin-top: 5%;
-    width: 50px;
-    height: 50px;
-  }
+.cont1Desc {
+  display: flex;
+  flex-direction: column;
+}
 
-  #navFooter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+#onoff {
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 50px;
+  height: 50px;
+}
 
-  .footerPort {
-    display: flex;
-    flex-direction: column;
-  }
+#navFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  #titlepagesite {
-    width: 305px;
-    height: 84px;
-    left: 5%;
-    top: 30%;
-    display: none;
-  }
+.footerPort {
+  display: flex;
+  flex-direction: column;
+}
 
-  #comman {
-    width: 100vw;
-  }
+#titlepagesite {
+  width: 100vw;
+  height: 84px;
+  top: 30%;
+  margin-top: 50px;
+  text-align: center;
+}
 
-  #code1 {
-    width: 100vw;
-  }
+.descsite {
+  width: 100px;
+}
 
-  .matrix {
-    display: none;
-  }
+#comman {
+  width: 100vw;
+}
+
+#code1 {
+  width: 100vw;
+}
+
+.matrix {
+  display: none;
+}
 
 
 .callToAction {
   display: flex;
-  left: 15%;
   flex-direction: row;
 }
 
@@ -65,9 +73,41 @@
 }
 
 #nav>ul {
-    display: none;
-  }
+  display: none;
+}
 
-  .fa-bars {
-    display: block;
+.fa-bars {
+  display: block;
+}
+
+
+#spaghetti {
+  display: none;
+}
+
+
+#gameController {
+  display: none;
+}
+
+
+
+
+
+
+
+/* Visual Enhancement Internet Content*/
+
+
+
+
+
+
+
+
+
+.cont1defIternet {
+  display: flex;
+  flex-direction: column-reverse;
+
 }
