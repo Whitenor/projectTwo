@@ -80,6 +80,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 50px;
 }
 
 .cont2defInternet {
@@ -105,7 +106,7 @@
 .cont1jobInternet {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .cont2jobInternet {
@@ -185,7 +186,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .cont2DefBigData {
@@ -203,6 +204,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 50px;
 }
 
 .cont2JobBG {
