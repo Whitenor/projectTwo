@@ -1,8 +1,7 @@
 #onoff {
   margin-left: 5%;
   margin-top: 3.49%;
-  width: 100px;
-  height: 100px;
+  width: 5vw;
 }
 
 .cont1Desc {
@@ -20,12 +19,12 @@
 }
 
 #titlepagesite {
-  width: 305px;
+  width: 20vw;
   height: 84px;
 }
 
 #descsite {
-  width: 70%;
+  width: 45vw;
   margin-top: 5%;
   font-size: 20px;
 }
@@ -33,8 +32,7 @@
 .matrix {
   margin-right: 5%;
   margin-top: 3.49%;
-  max-width: 100vw;
-  max-height: 90vh;
+  max-width: 35vw;
 }
 
 .callToAction {
@@ -45,7 +43,7 @@
 
 .callToActionButton {
   text-align: center;
-  width: 100px;
+  width: 6vw;
   border: 1px solid black;
   margin: 20px;
   padding: 14px 16px 15px 15px;
@@ -108,7 +106,7 @@
 
 .definition {
   text-align: right;
-  width: 600px;
+  width: 50vw;
 }
 
 .definition2 {
@@ -138,12 +136,12 @@
   margin-left: 5%;
 }
 
-#jobAlign {
-  width: 800px;
+.jobAlign {
+  width: 45vw;
 }
 
 #code1 {
-  width: 25%;
+  width: 25vw;
   margin-right: 5%;
 }
 
@@ -164,11 +162,11 @@
 
 #jobComAlign {
   text-align: right;
-  width: 800px;
+  width: 50vw;
 }
 
 #comman {
-  width: 35%;
+  width: 35vw;
   margin-left: 5%;
 }
 
@@ -189,7 +187,7 @@
 
 .definitionReverse {
   text-align: left;
-  width: 600px;
+  width: 45vw;
 }
 
 .definitionReverse2 {
@@ -229,7 +227,7 @@
 }
 
 .bigDataJobList {
-  width: 600px;
+  width: 50vw;
   text-align: right;
 
 }
@@ -274,12 +272,12 @@
 }
 
 #gameController{
-  width: 35%;
+  width: 45vw;
   margin-right: 5%;
 }
 
 #DefJeVi{
-  width: 60%;
+  width: 45vw;
 }
 
 
@@ -299,7 +297,7 @@
 }
 
 #ControllerPS5{
-  width: 35%;
+  width: 30vw;
   height: 30%;
   margin-left: 5%;
 }
@@ -308,5 +306,5 @@
 }
 .JeViJobDesc{
   text-align: right;
-  width: 600px;
+  width: 50vw;
 }
