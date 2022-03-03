@@ -60,7 +60,15 @@
 }
 
 
-
+.bolding{
+  font-weight: 600;
+  color: black;
+  text-decoration: underline;
+  font-size: 25px;
+}
+.sizeh2{
+  font-size: 30px;
+}
 
 
 
@@ -149,7 +157,6 @@
 #jobComAlign {
   text-align: right;
   width: 800px;
-  font-size: 25px;
 }
 
 #comman {
