@@ -1,193 +1,226 @@
 #onoff {
-    margin-left: 5%;
-    margin-top: 3.49%;
-    width: 100px;
-    height: 100px;
-  }
-  .cont1Desc {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+  margin-left: 5%;
+  margin-top: 3.49%;
+  width: 100px;
+  height: 100px;
+}
 
-  .cont2Desc {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5%;
-    z-index: 1;
-  }
+.cont1Desc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-  #titlepagesite {
-    width: 305px;
-    height: 84px;
-    margin-left: 5%;
+.cont2Desc {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-top: 5%;
+  z-index: 1;
+}
 
-  }
+#titlepagesite {
+  width: 305px;
+  height: 84px;
+}
 
-  #descsite {
-    width: 70%;
-    margin-left: 5%;
-    margin-top: 5%;
-    font-size: 20px;
-  }
+#descsite {
+  width: 70%;
+  margin-top: 5%;
+  font-size: 20px;
+}
 
-  .matrix {
-    margin-right: 5%;
-    margin-top: 3.49%;
-    max-width: 100vw;
-    max-height: 90vh;
-  }
+.matrix {
+  margin-right: 5%;
+  margin-top: 3.49%;
+  max-width: 100vw;
+  max-height: 90vh;
+}
 
-  .callToAction {
-    display: flex;
-    left: 15%;
-    flex-direction: row;
-  }
+.callToAction {
+  display: flex;
+  left: 15%;
+  flex-direction: row;
+}
 
-  .callToActionButton {
-    text-align: center;
-    width: 100px;
-    border: 1px solid black;
-    margin: 20px;
-    padding: 14px 16px 15px 15px;
-    font-size: 20px;
-    color: white;
-    border-radius: 50px;
-    font-weight: bold;
-  }
+.callToActionButton {
+  text-align: center;
+  width: 100px;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 14px 16px 15px 15px;
+  font-size: 20px;
+  color: white;
+  border-radius: 50px;
+  font-weight: bold;
+}
 
-  .callToAction a {
-    background-color: #605a48;
-  }
+.callToAction a {
+  background-color: #605a48;
+}
 
-  /*Definition Container for all pages*/
-  .cont1defInternet {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
 
-  .cont2defInternet {
-    display: flex;
-    flex-direction: column;
 
-  }
 
-  .definition {
-    text-align: right;
-    width: 600px;
-  }
 
-  .definition2 {
-    text-align: right;
-  }
 
-  #worldNetwork {
-    margin-left: 5%;
-  }
 
-  .cont1jobInternet {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-  }
 
-  .cont2jobInternet {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
+/* Visual enhancement content Internet */
 
-  .cont3jobInternet {
-    display: flex;
-    flex-direction: column;
-    margin-left: 5%;
-  }
 
-  #jobAlign {
-    width: 800px;
-  }
 
-  #code1 {
-    width: 25%;
-    margin-right: 5%;
-  }
 
-  .cont4jobInternet {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
 
-  .cont5jobInternet {
-    display: flex;
-    flex-direction: column;
-    margin-right: 5%;
-  }
 
-  #jobComAlign {
-    text-align: right;
-    width: 800px;
-    font-size: 25px;
-  }
 
-  #comman {
-    width: 35%;
-    margin-left: 5%;
-  }
 
-  .definitionReverse {
-    text-align: left;
-    width: 600px;
-  }
+.cont1defInternet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .definitionReverse2 {
-    text-align: left;
-  }
+.cont2defInternet {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
 
-  .cont1DefBigData{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: 100px;
-  }
+}
 
-  .cont2DefBigData{
-      display: flex;
-      flex-direction: column;
-      margin-left: 5%;
-  }
+.definition {
+  text-align: right;
+  width: 600px;
+}
 
-  #baieStock{
-      margin-right: 5%;
-  }
+.definition2 {
+  text-align: right;
+}
 
-  .cont1JobBG{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-  }
-  .cont2JobBG{
-      display: flex;
-      flex-direction: column;
-  }
-  .bigDataJobList{
-      width: 600px;
-      text-align: right;
-      margin-right: 5%;
-  }
-  .bigDataJobTitle{
-      text-align: right;
-      margin-right: 5%;
-  }
+#worldNetwork {
+  margin-left: 5%;
+}
 
-#spaghetti{
-    margin-left: 5%;
+.cont1jobInternet {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.cont2jobInternet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cont3jobInternet {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+#jobAlign {
+  width: 800px;
+}
+
+#code1 {
+  width: 25%;
+  margin-right: 5%;
+}
+
+.cont4jobInternet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cont5jobInternet {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+}
+
+#jobComAlign {
+  text-align: right;
+  width: 800px;
+  font-size: 25px;
+}
+
+#comman {
+  width: 35%;
+  margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+/* Visual Enhancement Content Big Data*/
+
+
+
+
+
+
+
+.definitionReverse {
+  text-align: left;
+  width: 600px;
+}
+
+.definitionReverse2 {
+  text-align: left;
+}
+
+.cont1DefBigData {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.cont2DefBigData {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+#baieStock {
+  margin-right: 5%;
+}
+
+.cont1JobBG {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cont2JobBG {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+}
+
+.bigDataJobList {
+  width: 600px;
+  text-align: right;
+
+}
+
+.bigDataJobTitle {
+  text-align: right;
+}
+
+#spaghetti {
+  margin-left: 5%;
 }
