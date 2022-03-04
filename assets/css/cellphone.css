@@ -162,8 +162,7 @@
 
 
 
-.cont1defIternet {
+.cont1defInternet {
   display: flex;
   flex-direction: column-reverse;
-
 }
