@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
 @import "navbar.css" screen;
 @import "footer.css" screen;
 @import "desktop.css" screen and (min-width: 1051px);
@@ -13,7 +14,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: Helvetica;
+  font-family: 'Roboto Serif', serif;
 }
 
 

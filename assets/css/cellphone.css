@@ -11,18 +11,6 @@
   display: none;
 }
 
-.callToActionButton {
-  border: 1px solid black;
-  padding: 14px 16px 15px 15px;
-  font-size: 20px;
-  color: white;
-  border-radius: 50px;
-  font-weight: bold;
-}
-
-.callToAction a {
-  background-color: #605a48;
-}
 
 
 
@@ -117,7 +105,7 @@
   flex-direction: column;
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
 }
 
 #onoff {
@@ -129,19 +117,33 @@
   height: 84px;
   top: 30%;
   margin-top: 50px;
+  margin-bottom: 75px;
 }
 #descsiteList {
-  margin-top: -20px;
+  margin-top: -30px;
   margin-bottom: 20px;
   list-style-type: none;
   line-height: 30px;
+  margin-left: -25px;
 }
 
 #descsite > p {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 
+.callToActionButton {
+  border: 1px solid black;
+  padding: 14px 16px 15px 15px;
+  font-size: 20px;
+  color: white;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.callToAction a {
+  background-color: #605a48;
+}
 
 
 
