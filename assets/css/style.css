@@ -10,11 +10,24 @@
 html {
   background: linear-gradient(180deg, #F1F1F1 0%, #ffefbe 100%);
 }
-
+p{
+  font-weight: 300;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto Serif', serif;
+}
+
+.boldingTitle{
+  font-weight: 600;
+  color: black;
+  text-decoration: underline;
+}
+.bolding{
+  color: black;
+  text-decoration: underline;
+  font-weight: 500;
 }
 
 
