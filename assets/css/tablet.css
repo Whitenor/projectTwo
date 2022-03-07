@@ -11,7 +11,7 @@
 }
 
 
-p{
+p {
   font-size: 1rem;
 }
 
@@ -107,6 +107,7 @@ p{
   margin-top: 50px;
   margin-bottom: 75px;
 }
+
 #descsiteList {
   margin-top: -30px;
   margin-bottom: 20px;
@@ -115,7 +116,7 @@ p{
   margin-left: -25px;
 }
 
-#descsite > p {
+#descsite>p {
   margin-bottom: 100px;
 }
 
@@ -160,14 +161,14 @@ p{
   text-align: center;
   margin-right: 5vw;
   margin-left: 5vw;
-  
+
 }
 
-#worldNetwork{
+#worldNetwork {
   width: 70vw;
 }
 
-.cont1jobInternet{
+.cont1jobInternet {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -175,21 +176,25 @@ p{
   margin: 0px 5vw;
 }
 
-.cont3jobInternet{
+.cont3jobInternet {
   margin-left: 5vw;
   margin-right: 5vw;
 }
-.cont4jobInternet{
+
+.cont4jobInternet {
   display: flex;
   flex-direction: column-reverse;
 }
-.cont5jobInternet{
+
+.cont5jobInternet {
   margin: 0px 5vw;
 }
-#code1{
+
+#code1 {
   display: none;
 }
-#comman{
+
+#comman {
   width: 90vw;
   margin: 0px 5vw;
 }
@@ -204,13 +209,13 @@ p{
 
 
 
-.cont1DefBigData{
+.cont1DefBigData {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.cont2DefBigData{
+.cont2DefBigData {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -222,7 +227,7 @@ p{
   width: 70vw;
 }
 
-.cont1JobBG{
+.cont1JobBG {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -248,18 +253,19 @@ p{
 
 
 
-.cont1DefJeVi{
+.cont1DefJeVi {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   margin: 0px 5vw;
 }
-.fontWeightCellphone{
+
+.fontWeightCellphone {
   font-weight: 300;
 }
 
-.cont1JobJeVi{
+.cont1JobJeVi {
   display: flex;
   flex-direction: column;
   text-align: center;

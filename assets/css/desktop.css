@@ -58,16 +58,19 @@
 }
 
 
-.boldingTitle{
+.boldingTitle {
   font-size: 25px;
 }
-.bolding{
+
+.bolding {
   font-size: 25px;
 }
-.sizeh2{
+
+.sizeh2 {
   font-size: 30px;
 }
-.fontSizeText{
+
+.fontSizeText {
   font-size: 20px;
 }
 
@@ -234,7 +237,8 @@
 #spaghetti {
   margin-left: 5%;
 }
-.textAlignLeft{
+
+.textAlignLeft {
   text-align: right;
 }
 
@@ -252,7 +256,7 @@
 
 
 
-.cont1DefJeVi{
+.cont1DefJeVi {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -260,23 +264,23 @@
   margin-top: 50px;
 }
 
-.cont2DefJeVi{
+.cont2DefJeVi {
   display: flex;
   flex-direction: column;
   margin-left: 5%;
 }
 
-#gameController{
+#gameController {
   width: 45vw;
   margin-right: 5%;
 }
 
-#DefJeVi{
+#DefJeVi {
   width: 45vw;
 }
 
 
-.cont1JobJeVi{
+.cont1JobJeVi {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -286,20 +290,22 @@
   margin-bottom: 2%;
 }
 
-.cont2JobJeVi{
+.cont2JobJeVi {
   display: flex;
   flex-direction: column;
 }
 
-#ControllerPS5{
+#ControllerPS5 {
   width: 30vw;
   height: 30%;
   margin-left: 5%;
 }
-.JeViJobTitle{
+
+.JeViJobTitle {
   text-align: right;
 }
-.JeViJobDesc{
+
+.JeViJobDesc {
   text-align: right;
   width: 50vw;
 }
