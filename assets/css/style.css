@@ -29,7 +29,9 @@ body {
   text-decoration: underline;
   font-weight: 500;
 }
-
+.noListStyle{
+  list-style-type: none;
+}
 
 
 

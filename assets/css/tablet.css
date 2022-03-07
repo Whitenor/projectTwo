@@ -1,7 +1,264 @@
-#nav>ul {
-    display: none;
-  }
+.matrix {
+  display: none;
+}
 
-  .fa-bars {
-    display: block;
-  }
+#spaghetti {
+  display: none;
+}
+
+#gameController {
+  display: none;
+}
+
+
+p{
+  font-size: 1rem;
+}
+
+
+
+
+
+
+/*      Navbar         */
+
+
+
+
+
+
+
+#nav>ul {
+  display: none;
+}
+
+.fa-bars {
+  display: block;
+}
+
+
+
+
+
+
+
+/*      Footer      */
+
+
+
+
+
+
+
+#navFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerPort {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+/*              Desc Site              */
+
+
+
+
+
+
+
+
+
+
+.cont2Desc {
+  margin-top: 10%;
+  z-index: 1;
+  text-align: center;
+
+}
+
+.cont1Desc {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 200px;
+}
+
+#onoff {
+  display: none;
+}
+
+
+#titlepagesite {
+  height: 84px;
+  top: 30%;
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+#descsiteList {
+  margin-top: -30px;
+  margin-bottom: 20px;
+  list-style-type: none;
+  line-height: 30px;
+  margin-left: -25px;
+}
+
+#descsite > p {
+  margin-bottom: 100px;
+}
+
+
+.callToActionButton {
+  border: 1px solid black;
+  padding: 14px 16px 15px 15px;
+  font-size: 20px;
+  color: white;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.callToAction a {
+  background-color: #605a48;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Visual Enhancement Internet Content*/
+
+
+
+
+
+
+.cont1defInternet {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.cont2defInternet {
+  text-align: center;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  
+}
+
+#worldNetwork{
+  width: 70vw;
+}
+
+.cont1jobInternet{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0px 5vw;
+}
+
+.cont3jobInternet{
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.cont4jobInternet{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.cont5jobInternet{
+  margin: 0px 5vw;
+}
+#code1{
+  display: none;
+}
+#comman{
+  width: 90vw;
+  margin: 0px 5vw;
+}
+
+
+
+
+
+/*      Big Data        */
+
+
+
+
+
+.cont1DefBigData{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cont2DefBigData{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0px 5vw;
+}
+
+#baieStock {
+  width: 70vw;
+}
+
+.cont1JobBG{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 5vw;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*           JeVi          */
+
+
+
+
+
+
+
+
+.cont1DefJeVi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0px 5vw;
+}
+
+.cont1JobJeVi{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0px 5vw;
+}
