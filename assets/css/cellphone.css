@@ -165,4 +165,35 @@
 .cont1defInternet {
   display: flex;
   flex-direction: column-reverse;
+  align-items: center;
+}
+
+.cont2defInternet {
+  text-align: center;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  
+}
+
+#worldNetwork{
+  width: 70vw;
+}
+
+.cont1jobInternet{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cont3jobInternet{
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.cont4jobInternet{
+  display: flex;
+  flex-direction: column-reverse;
+}
+#code1{
+  display: none;
 }
