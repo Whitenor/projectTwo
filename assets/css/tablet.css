@@ -255,6 +255,9 @@ p{
   text-align: center;
   margin: 0px 5vw;
 }
+.fontWeightCellphone{
+  font-weight: 300;
+}
 
 .cont1JobJeVi{
   display: flex;
